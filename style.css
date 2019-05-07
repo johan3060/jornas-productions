@@ -1,0 +1,105 @@
+header {
+    background-color: #707070;
+    border: 5px solid #e0dbdb;
+
+}
+
+header img {
+    width: 8vw;
+    height: 18vh;
+}
+
+.menu {
+    display: flex;
+}
+
+.menupunkter {
+    flex-grow: 1;
+    text-align: right;
+
+}
+
+.logo {
+    flex-grow: 1;
+    text-align: left;
+}
+
+nav {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+
+a {
+    color: white;
+}
+
+.splash {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(billeder/splash.jpg);
+    background-size: cover;
+    background-position: 30% 0%;
+    max-width: none;
+}
+
+h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'Merriweather', serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+
+#forside h1 {
+    text-align: center;
+}
+
+#top {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#top img {
+    width: 90%;
+    height: 90%;
+}
+
+#top .img {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+#bottom {
+    display: flex;
+
+}
+
+#bottom .text {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.mapouter {
+    height: 500px;
+    width: 600px;
+}
+
+.gmap_canvas {
+    background: none !important;
+    height: 500px;
+    width: 600px;
+}
