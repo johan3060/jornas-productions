@@ -1,0 +1,72 @@
+img {
+    width: 100%;
+}
+
+/*img {
+    width: 100%;
+}
+
+body {
+    margin: 0;
+}*/
+
+
+
+/*header {
+    background-color: #707070;
+    border: 5px solid #e0dbdb;
+
+}
+
+.menu {
+    display: flex;
+}
+
+.menupunkter {
+    flex-grow: 1;
+    text-align: right;
+
+}
+
+.logo {
+    flex-grow: 1;
+    text-align: left;
+}
+
+nav {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+
+a {
+    color: white;
+}
+*/
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+
+h3 {
+    font-family: 'Merriweather', serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/*parent*/
+.sectionwrapper {
+    display: flex;
+    /* varför fuckar hela sitet med flex-wrap på?*/
+}
+
+/*child*/
+.col {
+    flex-grow: 1;
+    flex-basis: 600px;
+}
+
+.img {
+    width: 70%;
+    height: 70%;
+}
