@@ -1,12 +1,17 @@
+html {
+    font-family: 'Muli', sans-serif;
+}
+
 header {
-    background-color: #707070;
-    border: 5px solid #e0dbdb;
+    padding-right: 10px;
+    /* background: linear-gradient(to top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);*/
+    background-color: #194973;
 
 }
 
 header img {
-    width: 8vw;
-    height: 18vh;
+    width: 3vw;
+    height: 5vh;
 }
 
 .menu {
@@ -14,9 +19,16 @@ header img {
 }
 
 .menupunkter {
+    display: flex;
     flex-grow: 1;
     text-align: right;
+    padding-left: 875px;
+    justify-content: space-between;
+}
 
+header .menupunkter img {
+    width: 25px;
+    height: 30px;
 }
 
 .logo {
@@ -25,38 +37,54 @@ header img {
 }
 
 nav {
-    font-family: 'Roboto', sans-serif;
-    font-size: 24px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 a {
+    text-decoration: none;
     color: white;
 }
 
+nav a:hover {
+    color: #d9b1a3;
+}
+
 .splash {
-    width: 100vw;
-    height: 100vh;
-    background-image: url(billeder/splash.jpg);
+    width: 97.5vw;
+    height: 120vh;
+    background-image: url(billeder/splash4.jpg);
     background-size: cover;
     background-position: 30% 0%;
     max-width: none;
 }
 
+.splash2 {
+    width: 97.5vw;
+    height: 90vh;
+    background-image: url(billeder/b%C3%B8jle.jpg);
+    background-size: cover;
+    background-position: 30% 0%;
+    max-width: none;
+}
+
+
 h1 {
-    font-family: 'Merriweather', serif;
+
     font-size: 36px;
     font-weight: bold;
 }
 
 h3 {
-    font-family: 'Merriweather', serif;
+
     font-size: 25px;
     font-weight: bold;
 }
 
 p {
-    font-family: 'Roboto', sans-serif;
-    font-size: 24px;
+
+    font-size: 15px;
 }
 
 #forside h1 {
@@ -68,6 +96,8 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: #394157;
+    color: white;
 }
 
 #top img {
@@ -79,6 +109,15 @@ p {
     display: flex;
     justify-content: space-between;
     text-align: center;
+}
+
+#top p {
+    padding-left: 22px;
+    padding-right: 10px;
+}
+
+#top img:hover {
+    -webkit-filter: brightness(70%);
 }
 
 
@@ -103,3 +142,42 @@ p {
     height: 500px;
     width: 600px;
 }
+
+footer {
+    background-color: #131b20;
+    color: grey;
+}
+
+footer a {
+    color: grey;
+}
+
+footer h3 {
+    font-size: 15px;
+    color: white;
+}
+
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 22px;
+    padding-right: 10px;
+}
+
+footer a:hover {
+    color: white;
+}
+
+
+/*
+.wrapper img {
+    width: 20px;
+    height: 15px;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}
+*/
