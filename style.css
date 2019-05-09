@@ -250,7 +250,6 @@ footer h3 {
 
 .wrapper {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
 
 }
@@ -284,6 +283,10 @@ footer a:hover {
 
     #bottom .text {
         margin-top: 20px;
+    }
+
+    .wrapper {
+        flex-wrap: wrap;
     }
 }
 

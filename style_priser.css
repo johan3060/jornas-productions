@@ -114,7 +114,12 @@ label {
         display: block;
         background-color: white;
     }
+
+    .wrapper {
+        flex-wrap: wrap;
+    }
 }
+
 
 .menu a:hover {
     text-decoration: underline;
@@ -166,21 +171,6 @@ h3 {
 
 }
 
-.col {
-    /* Parent */
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    margin: 10px;
-
-    /* Child */
-    flex-grow: 1;
-    flex-basis: 400px;
-}
-
-
-/******FOOTER******/
-
 footer {
     background-color: #131b20;
     color: grey;
@@ -199,9 +189,19 @@ footer h3 {
 .wrapper {
     display: flex;
     justify-content: space-between;
-    padding-left: 22px;
-    padding-right: 10px;
-    padding-bottom: 10px;
+
+}
+
+.col {
+    /* Parent */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 10px;
+
+    /* Child */
+    flex-grow: 1;
+    flex-basis: 400px;
 }
 
 footer a:hover {
