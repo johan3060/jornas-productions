@@ -194,3 +194,13 @@ p {
 
     font-size: 15px;
 }
+
+.txt a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.txt a:hover {
+    text-decoration: underline;
+}
