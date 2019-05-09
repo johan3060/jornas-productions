@@ -165,6 +165,12 @@ p {
     text-align: center;
 }
 
+@media only screen and (max-width: 500px) {
+    #top .img {
+        flex-wrap: wrap;
+    }
+}
+
 #top p {
     padding-left: 22px;
     padding-right: 10px;
@@ -177,6 +183,7 @@ p {
 
 #bottom {
     display: flex;
+    flex-wrap: wrap;
 
 }
 
@@ -197,6 +204,7 @@ p {
     width: 600px;
 }
 
+
 footer {
     background-color: #131b20;
     color: grey;
@@ -212,12 +220,12 @@ footer h3 {
     color: white;
 }
 
-
 .wrapper {
     display: flex;
     justify-content: space-between;
     padding-left: 22px;
     padding-right: 10px;
+    padding-bottom: 10px;
 }
 
 footer a:hover {
