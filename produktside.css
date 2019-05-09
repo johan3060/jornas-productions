@@ -116,10 +116,6 @@ label {
 /******SLUT PÅ HEADER*****/
 
 
-
-
-/*****START PÅ PRIS-SIDE*****/
-
 h3 {
     font-family: 'Merriweather', serif;
     font-size: 25px;
@@ -133,6 +129,7 @@ h3 {
 
     /* varför fuckar hela sitet med flex-wrap på?*/
     padding-top: 20px;
+    background-color: #394157;
 
 
 }
@@ -141,9 +138,8 @@ h3 {
 .txt {
     flex-grow: 1;
     flex-basis: 700px;
-    margin: 0 10px;
-    margin-bottom: 20px;
-    background-color: #394157;
+    padding: 0 10px;
+    padding-bottom: 20px;
     color: white;
     padding-left: 20px;
     padding-right: 10px;
@@ -154,8 +150,8 @@ h3 {
     flex-basis: 500px;
     width: 35%;
     height: 35%;
-    margin-bottom: 20px;
-    margin-right: 10px;
+    padding-bottom: 20px;
+    padding-right: 10px;
 
 
 }
@@ -203,4 +199,53 @@ p {
 
 .txt a:hover {
     text-decoration: underline;
+}
+
+/*BOTTOM*/
+
+.bottom {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    background-color: #6b7389;
+    color: white;
+}
+
+.bottom img {}
+
+.bottom .img {
+    display: flex;
+}
+
+video {
+    text-align: center;
+    display: block;
+    width: auto;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.omtxt {
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
+.mapouter {
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    height: 500px;
+    width: 600px;
+}
+
+.gmap_canvas {
+    background: none !important;
+    height: 500px;
+    width: 600px;
+}
+
+.top {
+    background-color: #394157;
 }

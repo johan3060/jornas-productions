@@ -126,13 +126,13 @@ h3 {
     font-weight: bold;
 }
 
-/*parent*/
 .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
 
     /* varför fuckar hela sitet med flex-wrap på?*/
     padding-top: 20px;
+    background-color: #394157;
 
 
 }
@@ -141,9 +141,8 @@ h3 {
 .txt {
     flex-grow: 1;
     flex-basis: 700px;
-    margin: 0 10px;
-    margin-bottom: 20px;
-    background-color: #394157;
+    padding: 0 10px;
+    padding-bottom: 20px;
     color: white;
     padding-left: 20px;
     padding-right: 10px;
@@ -154,8 +153,8 @@ h3 {
     flex-basis: 500px;
     width: 35%;
     height: 35%;
-    margin-bottom: 20px;
-    margin-right: 10px;
+    padding-bottom: 20px;
+    padding-right: 10px;
 
 
 }
