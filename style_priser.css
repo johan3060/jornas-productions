@@ -78,6 +78,14 @@ label {
 
 
 @media only screen and (max-width: 500px) {
+
+    header {
+        position: fixed;
+        background-color: white;
+        width: 100%;
+        z-index: 1;
+    }
+
     label {
         display: block;
         cursor: pointer;
@@ -121,7 +129,6 @@ label {
 /*****START PÅ PRIS-SIDE*****/
 
 h3 {
-    font-family: 'Merriweather', serif;
     font-size: 25px;
     font-weight: bold;
 }
@@ -157,6 +164,18 @@ h3 {
     padding-right: 10px;
 
 
+}
+
+.col {
+    /* Parent */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 10px;
+
+    /* Child */
+    flex-grow: 1;
+    flex-basis: 400px;
 }
 
 

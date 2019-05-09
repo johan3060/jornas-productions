@@ -2,7 +2,16 @@ html {
     font-family: 'Muli', sans-serif;
 }
 
+body {
+    background-color: #394157
+}
 
+header {
+    position: fixed;
+    background-color: white;
+    width: 99%;
+    z-index: 1;
+}
 
 .nav {
     display: flex;
@@ -20,6 +29,7 @@ html {
     height: 70%;
     position: absolute;
     right: 830px;
+
 }
 
 .logo {
@@ -70,6 +80,14 @@ label {
 
 
 @media only screen and (max-width: 500px) {
+
+    header {
+        position: fixed;
+        background-color: white;
+        width: 97%;
+        z-index: 1;
+    }
+
     label {
         display: block;
         cursor: pointer;
@@ -105,16 +123,17 @@ label {
 
 }
 
-.splash {
-    width: 97.5vw;
+#splash {
+    position: relative;
+    width: 100%;
     height: 120vh;
-    background-image: url(billeder/splash4.jpg);
+    background-image: url(billeder/splash2.png);
     background-size: cover;
     background-position: 30% 0%;
-    max-width: none;
+    z-index: -1;
 }
 
-.splash2 {
+#splash2 {
     width: 97.5vw;
     height: 90vh;
     background-image: url(billeder/b%C3%B8jle.jpg);
@@ -123,10 +142,9 @@ label {
     max-width: none;
 }
 
-
 h1 {
-
-    font-size: 36px;
+    color: white;
+    font-size: 50px;
     font-weight: bold;
 }
 
@@ -141,6 +159,7 @@ p {
     font-size: 15px;
 }
 
+
 #forside h1 {
     text-align: center;
 }
@@ -152,17 +171,22 @@ p {
     justify-content: space-between;
     background-color: #394157;
     color: white;
+    background-color: #50576a;
 }
 
 #top img {
     width: 90%;
     height: 90%;
+    border-top: solid white 1px;
+    border-bottom: solid white 1px;
 }
 
 #top .img {
     display: flex;
     justify-content: space-between;
     text-align: center;
+
+
 }
 
 @media only screen and (max-width: 500px) {
@@ -180,17 +204,21 @@ p {
     -webkit-filter: brightness(70%);
 }
 
-
 #bottom {
     display: flex;
     flex-wrap: wrap;
+
 
 }
 
 #bottom .text {
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
     text-align: center;
+    background-color: #81928D;
+    border: solid #81928D 20px;
+    color: white;
 }
 
 .mapouter {
@@ -222,16 +250,42 @@ footer h3 {
 
 .wrapper {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    padding-left: 22px;
-    padding-right: 10px;
-    padding-bottom: 10px;
+
+}
+
+.col {
+    /* Parent */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 10px;
+
+    /* Child */
+    flex-grow: 1;
+    flex-basis: 400px;
 }
 
 footer a:hover {
     color: white;
 }
 
+@media only screen and (max-width: 500px) {
+    #splash {
+        width: 100%;
+        height: 60vw
+    }
+
+    #splash2 {
+        width: 100%;
+        height: 60vw;
+    }
+
+    #bottom .text {
+        margin-top: 20px;
+    }
+}
 
 /*
 .wrapper img {

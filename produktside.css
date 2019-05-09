@@ -78,6 +78,14 @@ label {
 
 
 @media only screen and (max-width: 500px) {
+
+    header {
+        position: fixed;
+        background-color: white;
+        width: 100%;
+        z-index: 1;
+    }
+
     label {
         display: block;
         cursor: pointer;
@@ -106,6 +114,7 @@ label {
         display: block;
         background-color: white;
     }
+
 }
 
 .menu a:hover {
@@ -117,7 +126,6 @@ label {
 
 
 h3 {
-    font-family: 'Merriweather', serif;
     font-size: 25px;
     font-weight: bold;
 }
@@ -132,6 +140,51 @@ h3 {
     background-color: #394157;
 
 
+}
+
+#sectionwrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+
+    position: absolute;
+    left: 1vw;
+    bottom: -1vw;
+}
+
+#sectionwrapper #col {
+    border: solid white 10px;
+    margin 10px;
+}
+
+#sectionwrapper2 {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+
+    position: absolute;
+    left: 0vw;
+    bottom: -10.5vw;
+}
+
+#sectionwrapper3 {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+
+    position: absolute;
+    left: 0vw;
+    bottom: -10.5vw;
+}
+
+#sectionwrapper2 #col {
+    border: solid white 10px;
+    margin 10px;
+}
+
+#sectionwrapper3 #col {
+    border: solid white 10px;
+    margin 10px;
 }
 
 /*child*/
@@ -154,6 +207,11 @@ h3 {
     padding-right: 10px;
 
 
+}
+
+#produktbilleder {
+    width: 300px;
+    height: 300px;
 }
 
 
@@ -191,6 +249,12 @@ p {
     font-size: 15px;
 }
 
+.txt {
+    background-color: #818D82;
+    margin: 20px;
+    margin-bottom: 500px;
+}
+
 .txt a {
     color: white;
     text-decoration: none;
@@ -205,10 +269,35 @@ p {
 
 .bottom {
     display: flex;
-    align-items: center;
-    flex-grow: 1;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
     background-color: #6b7389;
     color: white;
+}
+
+.content1 {
+    flex-grow: 1;
+    flex-basis: 500px;
+    background-color: #818D82;
+    margin: 50px;
+}
+
+.content2 {
+    flex-grow: 1;
+    flex-basis: 600px
+}
+
+.col {
+    /* Parent */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 10px;
+
+    /* Child */
+    flex-grow: 1;
+    flex-basis: 400px;
 }
 
 .bottom img {}

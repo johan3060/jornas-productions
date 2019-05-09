@@ -16,49 +16,53 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-config" content="ikoner/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
+    <meta name="robots" content="noindex">
     <title>Jørnæs Productions</title>
 </head>
 
 <body>
     <header>
-        <div class="nav">
-            <div class="logo">
-                <img src="billeder/logo.svg">
+        <nav>
+            <div class="nav">
+                <label for="toggle">&#9776;</label>
+                <input type="checkbox" id="toggle" />
+                <div class="menu">
+                    <a href="index.html">Forside</a>
+                    <a href="om.html">Om os</a>
+                    <a href="index.html#top">Produkter</a>
+                    <a href="http://www.jornas-butik.dk/">E-butik</a>
+                    <a href="index.html#bottom">Kontakt</a>
+                    <a href="priser.html">Priser</a>
+                </div>
             </div>
-            <label for="toggle">&#9776;</label>
-            <input type="checkbox" id="toggle" />
-            <div class="menu">
-                <a href="index.html">Forside</a>
-                <a href="om.html">Om os</a>
-                <a href="index.html#top">Produkter</a>
-                <a href="http://www.jornas-butik.dk/">E-butik</a>
-                <a href="index.html#bottom">Kontakt</a>
-                <a href="priser.html">Priser</a>
-            </div>
-        </div>
+        </nav>
     </header>
     <div class="top">
-        <video width="640" height="480" controls>
-            <source src="http://johannielsen.dk/kea/03-content/03-redesign/03_02_05_virksomhedsvideo/Gruppe10_JP.mp4" type="video/mp4">
+        <video height="600" controls>
+            <source src="http://johannielsen.dk/kea/03-content/03-redesign/03_02_05_virksomhedsvideo/Gruppe10_JP.mp4" type="video/mp4" class="video">
             Your browser does not support the video tag.
         </video>
     </div>
     <div class="bottom">
-        <div class="omtxt">
-            <h1>Om Jørnæs Productions</h1>
-            <p>Hos Jørnæs Productions har vi været specialister i tryksager siden 1987. Med baggrund i vores mange års erfaring står vi altid klar med rådgivning og vejledning, som tager udgangspunkt i dine eller virksomheds behov.
+        <div class="content1">
+            <div class="omtxt">
+                <h1>Om Jørnæs Productions</h1>
+                <p>Hos Jørnæs Productions har vi været specialister i tryksager siden 1987. Med baggrund i vores mange års erfaring står vi altid klar med rådgivning og vejledning, som tager udgangspunkt i dine eller virksomheds behov.
 
-                Ideerne, ambitionerne og opgaverne er vokset med tiden og har nu resulteret i en butik beliggende på Østerbrogade. Hovedvægten af vores arbejde går i dag på at udføre tryk på tøj ved brug af forskellige metoder og hver dag produceres der tryksager ved brug af moderne maskiner og teknologi.
+                    Ideerne, ambitionerne og opgaverne er vokset med tiden og har nu resulteret i en butik beliggende på Østerbrogade. Hovedvægten af vores arbejde går i dag på at udføre tryk på tøj ved brug af forskellige metoder og hver dag produceres der tryksager ved brug af moderne maskiner og teknologi.
 
-                Kom og besøg os - her vil du opleve, at medarbejderne tager del i dine opgaver med deres unikke erfaringen indenfor tryk. Vi garanterer en kundeoplevelse i højsædet.</p>
+                    Kom og besøg os - her vil du opleve, at medarbejderne tager del i dine opgaver med deres unikke erfaringen indenfor tryk. Vi garanterer en kundeoplevelse i højsædet.</p>
+            </div>
         </div>
-        <div class="mapouter">
-            <div class="gmap_canvas"><iframe width="500" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=%C3%B8sterbrogade%2046&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.crocothemes.net"></a></div>
+        <div class="content2">
+            <div class="mapouter">
+                <div class="gmap_canvas"><iframe width="500" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=%C3%B8sterbrogade%2046&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.crocothemes.net"></a></div>
+            </div>
         </div>
     </div>
     <footer>
         <div class="wrapper">
-            <div class="col1">
+            <div class="col">
                 <h3>Jornas Productions</h3>
                 <br>
                 <a href="http://www.jornas.dk">
@@ -74,7 +78,7 @@
                 </a>
                 <br>
             </div>
-            <div class="col2">
+            <div class="col">
                 <h3>Følg os</h3>
                 <br>
                 <a href="http://www.jornas.dk">
@@ -94,7 +98,7 @@
                 </a>
                 <br>
             </div>
-            <div class="col3">
+            <div class="col">
                 <h3>Fagområder</h3>
                 <br>
                 <a href="http://www.jornas.dk">
@@ -110,7 +114,7 @@
                 </a>
                 <br>
             </div>
-            <div class="col4">
+            <div class="col">
                 <h3>Generel Information</h3>
                 <br>
                 <a href="http://www.jornas.dk">
